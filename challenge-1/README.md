@@ -1,6 +1,5 @@
 */TODO: add a description of the project/*
 --Module 1 Challenge--
-First code that was refactored was in the index.HTML file. 
-I gave the id property to "search-engine-optimization", which took users to the corresponding section in the website.
+One of the project's main goals was to show an understanding of CSS styling by consolidating its properties and selectors to create a CSS style sheet that was more efficient. Another goal of this project was to make this webpage accessible for all people. This was accomplished by adding alt attributes for each image on the website. Refactoring the code made the HTML and CSS files easier to read and understand. 
 */TODO: add a screenshot of the website/*
 */TODO: add a link to the website/*
