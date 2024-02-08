@@ -55,8 +55,8 @@ a {
 /* This code positions the main image of the webpage. */
 .figure {
     margin-bottom: 25px;
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 
 /* This code sets the space for the article part of the website. */
@@ -98,8 +98,8 @@ h2 {
 
 /* This code styles and sets the space and layout for the aside section. */
 .aside {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 25px;
+    padding: 30px;
     clear: both;
     float: right;
     width: 20%;
@@ -110,7 +110,7 @@ h2 {
 
 /* This sets the margin and font color for each of the benefits. */
 .benefits {
-    margin-bottom: 32px;
+    margin-bottom: 50px;
     color: #ffffff;
 }
  
@@ -127,13 +127,14 @@ h3 {
     max-width: 150px;
 }
 
-/* This code styles the footer element.*/
+/* This code styles the footer element and hides it from the page.*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 16px;
+    visibility: hidden;
 }
 
 /* This code sets the font size for the h4 header. */
