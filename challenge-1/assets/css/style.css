@@ -1,13 +1,16 @@
+/* This code sets all box classes to have the same space around them. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This sets the background color of the body elements. */
 body {
     background-color: #d9dcd6;
 }
 
+/*This styles the header section and adds font to its element. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,28 +24,28 @@ h1 {
     font-size: 48px;
 }
 
-/* This code changes the styling in a specific section of the website name. */
+/* This code changes the color in a specific section of the website name. */
 #seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* This code styles the whole navigation section of the website. */
+.nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*This code styles the elements listed in the navigation. */
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This code adds font color and text decoration to the navigation elements. */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -56,14 +59,14 @@ a {
     background-size: cover;
 }
 
-/* This code sets the layout of the article part of the webpage. */
+/* This code sets the space for the article part of the website. */
 .article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* This is shorthanded */
+/* This code sets the layout and styling for each article section. */
 .section {
     margin-bottom: 20px;
     padding: 50px;
@@ -73,26 +76,27 @@ a {
     color: #ffffff;
 }
 
-/* This is shorthanded */
-.article h2 {
+/* This code sets the bottom margin and font size of h2 headers. */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* This is shorthanded */
+/* This code sets the images in the article section to float left. */
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-/* this is shorthand */
+/* This code sets one image in the article section to float right. */
 #float-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
+/* This code styles and sets the space and layout for the aside section. */
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,38 +108,40 @@ a {
     background-color: #2589bd;
 }
 
+/* This sets the margin and font color for each of the benefits. */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
  
-/* This styles the headers for the aside part of webpage */
+/* This styles all h3 headers in the benefits. */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* This assigns the space for the images in aside section */
+/* This code assigns the space for the images in the benefits. */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* This code styles the footer element.*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 16px;
 }
 
-.footer h2 {
+/* This code sets the font size for the h4 header. */
+h4 {
     font-size: 20px;
 }
 
-.footer p {
-    font-size: 16px;
-}
+
 
 
 
