@@ -4,7 +4,7 @@ Another goal of this project was to make this webpage accessible for all people.
 
 --Screenshot of the website--
 
-![alt text](<_Users_sandyvazquez_module-challenges_challenge-1_index.html (1).png>)
+![alt text](assets/images/horiseon-website-screenshot.jpg)
 
 --Link to the website--
 
