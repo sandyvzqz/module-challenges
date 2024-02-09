@@ -8,4 +8,5 @@ Another goal of this project was to make this webpage accessible for all people.
 
 --Link to the website--
 
+[Check it out](https://sandyvzqz.github.io/module-challenges/)
 
