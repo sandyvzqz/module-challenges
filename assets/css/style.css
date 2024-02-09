@@ -11,7 +11,7 @@ body {
 }
 
 /*This styles the header section and adds font to its element. */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -30,7 +30,7 @@ h1 {
 }
 
 /* This code styles the whole navigation section of the website. */
-.nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -53,21 +53,21 @@ a {
 
 
 /* This code positions the main image of the webpage. */
-.figure {
+figure {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
 
-/* This code sets the space for the article part of the website. */
-.article {
+/* This code sets the space for the section part of the website. */
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* This code sets the layout and styling for each article section. */
-.section {
+.article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -97,7 +97,7 @@ h2 {
 }
 
 /* This code styles and sets the space and layout for the aside section. */
-.aside {
+aside {
     margin-right: 25px;
     padding: 30px;
     clear: both;
@@ -128,7 +128,7 @@ h3 {
 }
 
 /* This code styles the footer element and hides it from the page.*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
